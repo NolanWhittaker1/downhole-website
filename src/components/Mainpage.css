@@ -1,5 +1,21 @@
 section {
     height: 100vh;
     width: 100vw;
-    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 50%;
+    width: auto;
+    border-radius: 5px;
+}
+
+span {
+    height: fit-content;
+    height: 50%;
+    padding: 3px;
+    
 }
