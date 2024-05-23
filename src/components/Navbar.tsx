@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -9,9 +10,9 @@ function Navbar() {
         className="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between"
         id="main"
       >
-        <a
+        <Link
           className="navbar-brand"
-          href="#"
+          to="/"
           onMouseEnter={() => setExpand(true)}
           onMouseLeave={() => setExpand(false)}
         >
@@ -19,20 +20,20 @@ function Navbar() {
             Downhole Battery Inc.
             {expand}
           </h1>
-        </a>
+        </Link>
         <div className="navbar-nav">
-          <a className="nav-item nav-link active" href="#">
+          <Link className="nav-item nav-link active" to="/">
             Home
-          </a>
-          <a className="nav-item nav-link active" href="#">
+          </Link>
+          <Link className="nav-item nav-link active" to="/">
             About
-          </a>
-          <a className="nav-item nav-link active" href="#">
+          </Link>
+          <Link className="nav-item nav-link active" to="/">
             Battery Types
-          </a>
-          <a className="nav-item nav-link active" href="#">
+          </Link>
+          <Link className="nav-item nav-link active" to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
       </nav>
     </>
