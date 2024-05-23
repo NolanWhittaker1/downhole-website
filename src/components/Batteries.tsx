@@ -1,12 +1,12 @@
 import Navbar from "./Navbar";
 
-function Contact() {
+function Batteries() {
   return (
     <>
       <Navbar />
-      <h1>Contact Page</h1>
+      <h1>Batteries Page</h1>
     </>
   );
 }
 
-export default Contact;
+export default Batteries;

@@ -25,10 +25,10 @@ function Navbar() {
           <Link className="nav-item nav-link active" to="/">
             Home
           </Link>
-          <Link className="nav-item nav-link active" to="/">
+          <Link className="nav-item nav-link active" to="/about">
             About
           </Link>
-          <Link className="nav-item nav-link active" to="/">
+          <Link className="nav-item nav-link active" to="/products">
             Battery Types
           </Link>
           <Link className="nav-item nav-link active" to="/contact">
